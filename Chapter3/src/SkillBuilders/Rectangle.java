@@ -9,7 +9,9 @@ public class Rectangle
 	{
 		//Declare Variables
 		int length;
+		int area;
 		int width;
+		int perimeter;
 		
 		//Create a Scanner object
 		Scanner userinput = new Scanner(System.in);
@@ -33,7 +35,21 @@ public class Rectangle
 		System.out.println("The width is: " + width);
 		System.out.print("The length is: " + length);
 		
-	
+	    //Calculate the area
+		area = length * width;
+		
+		//display the area on the screen
+		System.out.println("Area ="+ area);
+		
+		//Calculate the perimeter
+		perimeter = (2 * length + 2 * width);
+	    
+    	//display the area on the screen
+        System.out.println("perimeter = "+ perimeter);
+		
+		
+		
+		
 	}
 
 }
