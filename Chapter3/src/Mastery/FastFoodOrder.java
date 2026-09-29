@@ -1,17 +1,26 @@
+/*
+
+ Program: FastFood.java
+ Date: September 29, 2026
+ 
+ 
+ Purpose: Create an Order application that prompts the employee for the number of burgers,fries,and sodas and then displays the total, the tax (6.5%), and the final cost.
+ 
+ 
+ 
+ */
+
 package Mastery;
 
 import java.util.Scanner;
 
-/**
- * FastFoodOrder.java
- * Calculates food subtotals, tax, final total, and change.
- */
+
      public class FastFoodOrder {
 
      public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        // Prices from the textbook
+        // Prices 
         final double BURGER_PRICE = 1.69;
         final double FRIES_PRICE = 1.09;
         final double SODA_PRICE = 0.99;
@@ -48,4 +57,29 @@ import java.util.Scanner;
         input.close();
     }
 }
+/* Screen Dump
+ 
+ Enter the number of burgers: 
+5
+Enter the number of fries: 2
+Enter the number of sodas: 1
+Total before tax: $11.62
+Tax: $0.76
+Final total: $12.38
 
+Enter amount tendered: $
+
+Enter the number of burgers: 
+7
+Enter the number of fries: 7
+Enter the number of sodas: 7
+Total before tax: $26.39
+Tax: $1.72
+Final total: $28.11
+
+Enter amount tendered: $
+
+
+  
+  
+ */
